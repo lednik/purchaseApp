@@ -57,10 +57,10 @@ class Item {
 export class AppComponent {
     items: Item[] =
         [
-            { purchase: "Bread", done: false, price: 15.9 },
-            { purchase: "Milk", done: false, price: 60 },
-            { purchase: "Potato", done: true, price: 22.6 },
-            { purchase: "Coffee", done: false, price: 310 }
+            { purchase: "Хлебушек", done: false, price: 15.9 },
+            { purchase: "Молочко", done: false, price: 60 },
+            { purchase: "Картошечка", done: true, price: 22.6 },
+            { purchase: "Кофеёк", done: false, price: 310 }
         ];
     addItem(text: string, price: number): void {
 
